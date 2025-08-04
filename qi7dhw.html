@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到7@idqi的加拿大模拟器 </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            background-image: linear-gradient(to bottom, #ffebee, #f5f5f5);
+        }
+        h1 {
+            color: #e91e63;
+            border-bottom: 2px solid #ffcdd2;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(45deg, #e91e63, #9c27b0);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .iu-section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .iu-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .iu-gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .iu-gallery img:hover {
+            transform: scale(1.05);
+        }
+        .music-player {
+            background: #f8bbd0;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .music-player h3 {
+            color: #c2185b;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到7@idqi的加拿大模拟器 </h1>
+    <p style="text-align: center;">当前时间: <span id="time"></span></p>
+    
+    <!-- IU展示区 -->
+    <div class="iu-section">
+        <h2 style="color: #e91e63; text-align: center;">✨ 广告招商区 ✨</h2>
+        
+        <div class="iu-gallery">
+            <img src="https://s21.ax1x.com/2025/08/05/pVUQZJe.jpg" alt="天空加拿大预测交流群">
+            <img src="https://i.imgur.com/9QmXZzJ.jpg" alt="广告招商位2">
+            <img src="https://i.imgur.com/3vRkL7Q.jpg" alt="广告招商位3">
+        </div>
+        
+        <div class="music-player">
+            <h3>广告招商专属音乐</h3>
+            <audio controls style="width: 100%;">
+                <source src="/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                您的浏览器不支持音频元素。
+            </audio>
+            <div style="margin-top: 10px;">
+                <a href="https://t.me/tkyc88/watch?v=d9IxdwEFk1c" target="_blank" class="btn">点击跳转加拿大天空预测（打不开✈搜索@tkyc88）</a>
+                <a href="/watch?v=jeqdYqsrsA0" target="_blank" class="btn">广告招商联系 ✈@idqi7</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 模拟器专区 -->
+    <div style="text-align: center; margin-top: 30px;">
+        <h3>模拟器：</h3>
+        <a href="https://5k.ee/" target="_blank" class="btn">加拿大模拟器</a>
+        <a href="https://kkkk.ee/" target="_blank" class="btn">pg模拟器</a>
+        <a href="https://en.wikipedia.org/wiki/IU_(singer)" target="_blank" class="btn">2025C 著作7@idqi7</a>
+        
+        <div style="margin-top: 20px;">
+            <button onclick="window.location.href='https://www.google.com/search?q=iu+singer'" 
+                    style="padding: 12px 24px; background: linear-gradient(45deg, #2196F3, #3F51B5); color: white; border: none; border-radius: 50px; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                广告招商联系✈@idqi7
+            </button>
+        </div>
+    </div>
+    
+    <script>
+        // 显示当前时间
+        document.getElementById('time').textContent = new Date().toLocaleString();
+   
+      // 10秒后显示跳转提示
+        setTimeout(function(){
+            if(confirm('需要打开pg模拟器吗？')){
+                window.location.href = 'https://kkkk.ee/';
+            }
+        }, 10000);
+        
+     // 10秒后显示跳转提示
+        setTimeout(function(){
+            if(confirm('需要打开加拿大模拟器吗？')){
+                window.location.href = 'https://5k.ee/';
+            }
+        }, 10000);
+        
+        // 随机更换背景颜色
+        const colors = ['#ffebee', '#f3e5f5', '#e8eaf6', '#e3f2fd', '#e0f7fa', '#e8f5e9'];
+        document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    </script>
+</body>
+</html>
